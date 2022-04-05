@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'calls',
                 'display_name_singular' => __('joy-voyager-bread-call::seeders.data_types.call.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-call::seeders.data_types.call.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-call voyager-phone',
                 'model_name'            => 'Joy\\VoyagerBreadCall\\Models\\Call',
                 // 'policy_name'           => 'Joy\\VoyagerBreadCall\\Policies\\CallPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadCall\\Http\\Controllers\\VoyagerBreadCallController',
